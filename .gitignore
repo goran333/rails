@@ -15,5 +15,12 @@
 /log/*.log
 /tmp
 
-# Ignore emacs temp files
+# Ignore other unneeded files.
+database.yml
+doc/
+*.swp
 *~
+.project
+.DS_Store
+.idea
+.secret
